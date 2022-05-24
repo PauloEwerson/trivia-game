@@ -1,6 +1,6 @@
 ### Termos de acordo
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
 
 # Boas vindas ao repositório do projeto de Trivia!
 
@@ -24,16 +24,16 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
   - [Linter](#linter)
-    - [Usando o Trello como ferramenta kanban](#usando-o-trello-como-ferramenta-kanban)
-    - [Execução de testes de requisito](#execução-de-testes-de-requisito)
-    - [Execução de um teste específico](#execução-de-um-teste-específico)
-    - [Execução de teste de cobertura](#execução-de-teste-de-cobertura)
-    - [_Helper_ `renderWithRouterAndRedux`](#helper-renderwithrouterandredux)
-    - [Lidando com os testes que envolvem timers](#lidando-com-os-testes-que-envolvem-timers)
-    - [API de Trivia](#api-de-trivia)
-    - [Gravatar](#gravatar)
-    - [Grupos de prioridade](#grupos-de-prioridade)
-    - [Observações técnicas](#observações-técnicas)
+  - [Usando o Trello como ferramenta kanban](#usando-o-trello-como-ferramenta-kanban)
+  - [Execução de testes de requisito](#execução-de-testes-de-requisito)
+  - [Execução de um teste específico](#execução-de-um-teste-específico)
+  - [Execução de teste de cobertura](#execução-de-teste-de-cobertura)
+  - [_Helper_ `renderWithRouterAndRedux`](#helper-renderwithrouterandredux)
+  - [Lidando com os testes que envolvem timers](#lidando-com-os-testes-que-envolvem-timers)
+  - [API de Trivia](#api-de-trivia)
+  - [Gravatar](#gravatar)
+  - [Grupos de prioridade](#grupos-de-prioridade)
+  - [Observações técnicas](#observações-técnicas)
 - [Requisitos do projeto](#requisitos-do-projeto)
     - [Tela de início/login](#tela-de-iníciologin)
       - [1. Crie a tela de login, onde a pessoa que joga deve preencher as informações para iniciar um jogo](#1-crie-a-tela-de-login-onde-a-pessoa-que-joga-deve-preencher-as-informações-para-iniciar-um-jogo)
@@ -308,7 +308,6 @@ import renderWithRouterAndRedux from './helpers/renderWithRouterAndRedux';
 import renderWithRouterAndRedux from './helpers/renderWithRouterAndRedux';
 
 const initialState = {
-  token: "mockedToken",
   player: {
     name: 'Player Name',
     gravatarEmail: 'player@email.com',
@@ -330,7 +329,6 @@ const initialState = {
 import renderWithRouterAndRedux from './helpers/renderWithRouterAndRedux';
 
 const initialState = {
-  token: "mockedToken",
   player: {
     name: 'Player Name',
     gravatarEmail: 'player@email.com',
